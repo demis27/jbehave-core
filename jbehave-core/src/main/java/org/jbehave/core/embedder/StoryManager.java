@@ -375,7 +375,7 @@ public class StoryManager {
 			if ( duration == null ){
 				return 0;
 			}
-			return duration.getDurationInSecs() * 1000;
+			return duration.getDurationInMillis();
 		}
 
 		public StoryDuration getDuration() {

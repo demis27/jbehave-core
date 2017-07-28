@@ -22,6 +22,10 @@ public class StoryDuration {
         return durationInMillis / 1000;
     }
 
+    public long getDurationInMillis() {
+        return durationInMillis;
+    }
+
     public long getTimeoutInSecs() {
         return timeoutInSecs;
     }
